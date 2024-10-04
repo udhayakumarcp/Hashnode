@@ -50,7 +50,8 @@ You can secure access to private or protected sites in HAProxy by enabling basic
         
         ```bash
         userlist listofuser
-          user udhay insecure-password $5$s6Subz0X7FSX2zON$r94OtF6gOfWlGmySwvn3pDFIAHbIpe6mWneueqtBOl/
+          user udhay password $5$s6Subz0X7FSX2zON$r94OtF6gOfWlGmySwvn3pDFIAHbIpe6mWneueqtBOl/
+          # Other users
         ```
         
 3. **Add Basic Auth in HAProxy:** Update your HAProxy configuration:
